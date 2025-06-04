@@ -82,14 +82,14 @@ The project follows these key steps:
 ## 📈 Results
 
 The models were evaluated on the test set. Key performance metrics for the **Linear Regression model** are (update with your final script values):
-* **Mean Absolute Error (MAE):** [e.g., 4.6059]
-* **Mean Squared Error (MSE):** [e.g., 32.5609]
-* **Root Mean Squared Error (RMSE):** [e.g., 5.7062]
-* **R-squared (R²):** [e.g., 0.8754]
+* **Mean Absolute Error (MAE):** 4.9506
+* **Mean Squared Error (MSE):** 37.5466
+* **Root Mean Squared Error (RMSE):** 6.1275
+* **R-squared (R²):** 0.8536
 
 Performance metrics for the **Random Forest Regressor model** are (update with your final script values):
-* **Mean Squared Error (MSE):** [e.g., 28.79]
-* **R-squared (R²):** [e.g., 0.8899]
+* **Mean Squared Error (MSE):** 49.26477
+* **R-squared (R²):** 0.8079
 
 The `predict_exam_score_flexible` function allows for predicting the exam score for a new student profile. For instance, given:
 ```python
@@ -100,3 +100,5 @@ student_input = {
     'extracurricular_participation': 'Yes', 'part_time_job': 'No',
     'parental_education_level': 'Bachelor', 'diet_quality': 'Good'
 }
+
+Predicted Exam Score: 86.8
